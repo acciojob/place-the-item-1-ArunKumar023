@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	
+}
+
+.item1 {
+  flex-basis: calc(33.33% - 100px);
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: red;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+	font-style: 50px;	
+}
+.item2 {
+  flex-basis: calc(33.33% - 100px);
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: blue;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+	font-style: 50px;	
+}
+.item3 {
+  flex-basis: calc(33.33% - 100px);
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: green;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+	font-style: 50px;	
+}
+
+.item:first-child {
+  margin-right: 10px;
+}
+
+.item:last-child {
+  margin-left: 10px;
+}
